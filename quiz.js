@@ -13,6 +13,7 @@ function checkAnswer() {
 
   
   const feedback = document.getElementById("feedback");
+  
   if (userAnswer === correctAnswer) {
     feedback.textContent = "Correct! Well done.";
   } else {
